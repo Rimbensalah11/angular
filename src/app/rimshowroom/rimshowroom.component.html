@@ -1,0 +1,9 @@
+<div *ngFor="let showroom of listshowroom" class="card" style="width: 18rem">
+  <div class="card-body">
+    <h5 class="card-title">{{ showroom.nom }}</h5>
+    <p class="card-text">{{ showroom.matricule }}</p>
+    <button (click)="deleteShowroom(showroom.id)" class="btn btn-danger">Supprimer</button>
+
+  </div>
+</div>
+

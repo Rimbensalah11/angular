@@ -1,0 +1,26 @@
+<p>formulaire Appartement !</p>
+<div class="container">
+  <form [formGroup]="formreappart">
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text">AppartNum:</span>
+      </div>
+      <input type="text" class="form-control" formControlName="appartNum" />
+    </div>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Description:</span>
+      </div>
+      <input type="text" class="form-control" formControlName="description" />
+    </div>
+    <div hidden class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Residence:</span>
+      </div>
+      <input type="text" class="form-control" formControlName="residence" />
+    </div>
+    <br />
+    <input type="submit" class="btn btn-primary" (click)="add()" />
+  </form>
+</div>
+

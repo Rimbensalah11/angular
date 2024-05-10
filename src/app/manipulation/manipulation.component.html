@@ -1,0 +1,8 @@
+<p>manipulation works!</p>
+<!--<app-appartment #appart [var2]="var1" ></app-appartment>-->
+<app-appartment  (valueEvent)="shownom($event)" ></app-appartment>
+
+<!--{{appart.variable1}}-->
+<ul *ngFor="let i of name">
+    <li>{{i}}</li>
+</ul>

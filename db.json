@@ -1,0 +1,72 @@
+{
+  "appartements": [
+    {
+      "id": "1",
+      "appartNum": "251",
+      "floorNum": 44,
+      "surface": "55",
+      "terrace": "yes",
+      "surfaceTerrace": "",
+      "category": "test",
+      "description": "Consectetur perfere",
+      "residence": {
+        "id": 1,
+        "name": "El fel",
+        "address": "Borj Cedria",
+        "image": "../../assets/images/residence1.jpg"
+      }
+    },
+    {
+      "id": "2",
+      "appartNum": "55",
+      "description": "hhhh",
+      "residence": {
+        "id": 1,
+        "name": "El fel",
+        "address": "Borj Cedria",
+        "image": "../../assets/images/residence1.jpg"
+      }
+    },
+    {
+      "id": "3",
+      "appartNum": "251",
+      "floorNum": 44,
+      "surface": "55",
+      "terrace": "yes",
+      "surfaceTerrace": "",
+      "category": "test",
+      "description": "Consectetur perfere",
+      "residence": {
+        "id": 1,
+        "name": "El fel",
+        "address": "Borj Cedria",
+        "image": "../../assets/images/residence1.jpg"
+      }
+    },
+    {
+      "id": "7ad8",
+      "appartNum": "788",
+      "description": "hhhh",
+      "residence": {
+        "id": 1,
+        "name": "El fel",
+        "address": "Borj Cedria",
+        "image": "../../assets/images/residence1.jpg"
+      }
+    }
+  ],
+  "showrooms": [
+    {
+      "id": "",
+      "matricule": "AZhhdug!",
+      "nom": "rim",
+      "status": true
+    },
+    {
+      "id": "1",
+      "matricule": "AZhhdug!",
+      "nom": "meha",
+      "status": true
+    }
+  ]
+}
